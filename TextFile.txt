@@ -1,0 +1,16 @@
+﻿
+CREATE TABLE [dbo].Employee
+(
+	[Id] INT NOT NULL IDENTITY PRIMARY KEY, 
+    [Name] VARCHAR(50) NULL, 
+    [Salary] MONEY NULL
+)
+
+
+CREATE TABLE [dbo].UserInfo
+(
+	[UserName] VARCHAR(50) NOT NULL PRIMARY KEY, 
+    [Password] VARCHAR(50) NULL, 
+    [Email] VARCHAR(50) NULL, 
+    [Role] VARCHAR(50) NULL
+)
